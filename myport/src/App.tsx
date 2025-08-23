@@ -137,10 +137,10 @@ export default function App() {
       >
         <h2 className="text-3xl font-semibold mb-4">Social Media</h2>
         <div className="flex flex-wrap gap-6">
-          <a href="#" className="flex items-center space-x-2 hover:text-blue-600">
+          <a href="https://www.linkedin.com/in/tatiana-korzyukova/" className="flex items-center space-x-2 hover:text-blue-600">
             <Linkedin /><span>LinkedIn</span>
           </a>
-          <a href="#" className="flex items-center space-x-2 hover:text-pink-600">
+          <a href="https://www.instagram.com/korzyukova/#" className="flex items-center space-x-2 hover:text-pink-600">
             <Instagram /><span>Instagram</span>
           </a>
           <a href="#" className="flex items-center space-x-2 hover:text-gray-600">
