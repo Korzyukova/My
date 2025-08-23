@@ -21,7 +21,7 @@ export default function App() {
     <div className={containerClasses}>
       {/* Header */}
       <header className="flex justify-between items-center p-6 shadow-sm sticky top-0 bg-white/80 backdrop-blur z-50">
-        <h1 className="text-3xl font-normal font-sans">Tatiana Korzyukova</h1>
+        <h1 className="text-3xl font-normal font-sans-fallback ">Tatiana Korzyukova</h1>
 
         {/* Desktop nav */}
         <nav className="hidden md:flex space-x-6">
