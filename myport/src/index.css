@@ -118,3 +118,12 @@
     @apply bg-background text-foreground;
   }
 }
+.pixel-font {
+  font-family: 'Press Start 2P', sans-serif;
+}
+.inter-font {
+font-family: 'Inter', sans-serif;
+}
+.roboto-font {
+font-family: 'Roboto', sans-serif;
+}
