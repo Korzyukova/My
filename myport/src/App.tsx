@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
-import { Linkedin, Instagram, Globe, Menu, X } from "lucide-react";
+import { Linkedin, Instagram, Github, Menu, X } from "lucide-react";
 
 export default function App() {
   const [style, setStyle] = useState<"minimal" | "modern">("minimal");
@@ -143,8 +143,8 @@ export default function App() {
           <a href="https://www.instagram.com/korzyukova/#" className="flex items-center space-x-2 hover:text-pink-600">
             <Instagram /><span>Instagram</span>
           </a>
-          <a href="#" className="flex items-center space-x-2 hover:text-gray-600">
-            <Globe /><span>LiveJournal</span>
+          <a href="https://github.com/Korzyukova" className="flex items-center space-x-2 hover:text-gray-600">
+            <Github /><span>GitHub</span>
           </a>
         </div>
       </motion.section>
