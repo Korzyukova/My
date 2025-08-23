@@ -78,10 +78,27 @@ export default function App() {
         transition={{ duration: 0.6 }}
         variants={sectionVariants}
       >
-        <h2 className="text-3xl font-semibold mb-4">About Me</h2>
-        <p className="text-lg leading-relaxed">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        </p>
+        
+        <div className="flex flex-col md:flex-row items-center md:items-start gap-8">
+          {/* Блок с фото */}
+          <div className="flex-shrink-0 w-80 h-48 overflow-hidden shadow-lg">
+  <img
+    src="/me.jpg"
+    alt="Tatiana Korzyukova"
+    className="w-full h-full object-cover"
+  />
+</div>
+
+          {/* Блок с описанием */}
+          <div className="flex-1 text-center md:text-left">
+            <p className="text-lg leading-relaxed">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+          </div>
+        </div>
       </motion.section>
 
       {/* Travel Photos */}
