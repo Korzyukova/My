@@ -68,38 +68,39 @@ export default function App() {
         </div>
       )}
 
-      {/* About Me */}
-      <motion.section
-        id="about"
-        className="max-w-4xl mx-auto p-8"
-        initial="hidden"
-        whileInView="visible"
-        viewport={{ once: true }}
-        transition={{ duration: 0.6 }}
-        variants={sectionVariants}
-      >
-        
-        <div className="flex flex-col md:flex-row items-center md:items-start gap-8">
-          {/* Блок с фото */}
-          <div className="flex-shrink-0 w-80 h-48 overflow-hidden shadow-lg">
-  <img
-    src="/me.jpg"
-    alt="Tatiana Korzyukova"
-    className="w-full h-full object-cover"
-  />
-</div>
+     {/* About Me */}
+<motion.section
+  id="about"
+  className="max-w-4xl mx-auto p-8 **pt-8**"
+  initial="hidden"
+  whileInView="visible"
+  viewport={{ once: true }}
+  transition={{ duration: 0.6 }}
+  variants={sectionVariants}
+>
+  <div className="flex flex-col md:flex-row items-center md:items-stretch gap-8">
+    {/* Блок с фото */}
+    <div className="flex-shrink-0 w-full md:w-1/2">
+      <img
+        src="/me2.jpg"
+        alt="Tatiana Korzyukova"
+        className="w-full h-full object-cover"
+      />
+    </div>
 
-          {/* Блок с описанием */}
-          <div className="flex-1 text-center md:text-left">
-            <p className="text-lg leading-relaxed">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
-          </div>
-        </div>
-      </motion.section>
+    {/* Блок с описанием */}
+    <div className="flex-1 text-center md:text-left">
+      <p className="text-lg leading-relaxed">
+        Hello, my name is Tatiana. I was born in Chukotka, Russia, which is near the Arctic Circle and Alaska
+        (and yes, I've had to run away from a brown bear. I later moved to Moscow for my Master's degree
+        in Aerospace Engineering. Due to the tense situation in my home country, I moved to the United States
+        where I mastered a new language and a new profession as a Front-end Developer. Currently,
+        I am going through a Data Science bootcamp. That's my story in a nutshell. You can find more information
+        about me here on the website, but if there's anything you can't find, don't hesitate to ask.
+      </p>
+    </div>
+  </div>
+</motion.section>
 
       {/* Travel Photos */}
       <motion.section
