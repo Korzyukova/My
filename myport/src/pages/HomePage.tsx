@@ -78,8 +78,8 @@ export default function HomePage({
           {/* Блок с описанием */}
           <div className="flex-1 text-center md:text-left">
             <p className="text-lg leading-relaxed">
-              Hello, my name is Tatiana. I was born in Chukotka, Russia, which is near the Arctic Circle and Alaska 
-              (and yes, I've had to run away from a brown bear. I later moved to Moscow for my Master's degree 
+              Hello, my name is Tatiana. I was born in Chukotka, Russia, which is near the Arctic Circle and Alaska. 
+               I later moved to Moscow for my Master's degree 
               in Aerospace Engineering. Due to the tense situation in my home country, I moved to the United States
               where I mastered a new language and a new profession as a Front-end Developer. Currently,
               I am going through a Data Science bootcamp. That's my story in a nutshell. You can find more information 
@@ -109,7 +109,7 @@ export default function HomePage({
 
       {/* Footer */}
       <footer className="text-center p-6 border-t mt-10">
-        <p className="text-sm">© {new Date().getFullYear()} Tatiana Kor. All rights reserved.</p>
+        <p className="text-sm">© {new Date().getFullYear()} Tatiana Korzyukova</p>
       </footer>
     </div>
   );
