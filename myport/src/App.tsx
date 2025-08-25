@@ -26,9 +26,7 @@ export default function App() {
         {/* Desktop nav */}
         <nav className="hidden md:flex space-x-6">
           <a href="#about" className="hover:text-blue-600">About</a>
-          <a href="#photos" className="hover:text-blue-600">Photos</a>
-          <a href="#projects" className="hover:text-blue-600">Projects</a>
-          <a href="#social" className="hover:text-blue-600">Social</a>
+          <a href="#projects" className="hover:text-blue-600">Projects and skills</a>
           <a href="#hobbies" className="hover:text-blue-600">Hobbies</a>
           <a href="#skills" className="hover:text-blue-600">Skills</a>
         </nav>
@@ -50,9 +48,7 @@ export default function App() {
         <div className="md:hidden bg-white/95 backdrop-blur shadow p-6 space-y-4">
           {[
             ["#about", "About"],
-            ["#photos", "Photos"],
             ["#projects", "Projects"],
-            ["#social", "Social"],
             ["#hobbies", "Hobbies"],
             ["#skills", "Skills"],
           ].map(([href, label]) => (
